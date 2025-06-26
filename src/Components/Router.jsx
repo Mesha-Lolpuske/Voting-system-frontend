@@ -6,6 +6,7 @@ import Login from './Login';
 import Residency from './Residency'
 import Live from './Live';
 import Authentication from './Authentication';
+import Candidate from './Candidate'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
          {
         path: "/authentication",
         element: <Authentication />,
+      },
+      {
+        path: "/candidate",
+        element: <Candidate />,
       },
     ],
   },

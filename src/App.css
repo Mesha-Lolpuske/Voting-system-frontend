@@ -1,0 +1,8 @@
+/* global.css or App.css */
+.font-acme {
+  font-family: 'Acme', sans-serif;
+}
+
+.font-inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
