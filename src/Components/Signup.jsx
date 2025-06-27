@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
-import image3 from "../assets/image3.jpg";
+
 import { useNavigate } from "react-router-dom";
 
 function Signup() {
@@ -38,12 +38,7 @@ function Signup() {
           <h3 className="text-lg font-medium  text-gray-700 md:pl-12 pb-3 ">
             Decide tomorrow
           </h3>
-          <img
-            src={image3}
-            alt=""
-            className="w-20 h-20  absolute  top-[100px] right-[230px]  hidden md:flex"
-          />
-
+         
           <form className="flex flex-col items-center justify-center">
             <div className="flex flex-col">
               <div className="flex  flex-col items-start space-y-4">
