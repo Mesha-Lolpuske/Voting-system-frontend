@@ -40,26 +40,31 @@ const Candidate = () => {
   return (
     <div>
       {/* Header */}
-      <div className='bg-[#AACFCC] px-4 py-8 flex flex-col items-center'>
-        <h1 className='text-5xl font-extrabold text-center text-[#123832] mb-6 drop-shadow-lg'>
-          Elections for Congress 2025
-        </h1>
+      <div className="bg-[#AACFCC] px-4 py-8 flex flex-col items-center">
+    <h1 className="text-4xl sm:text-5xl font-extrabold text-center text-[#123832] mb-6 drop-shadow-lg">
+      Elections for Congress 2025
+    </h1>
 
-        <div className="bg-white rounded-3xl shadow-2xl flex flex-col md:flex-row items-center justify-center gap-12 px-4 max-w-4xl w-full">
-          <div className='text-2xl'>
-            <p className='text-[#0E3D76] font-acme font-bold mb-2 '>
-              Your vote is your voice- <br />
-              <span className='text-black'>"let it be heard, let it be honest, <br />let it count"</span>
-            </p>
-            <p className='text-black font-mono text-xl'>Status: <span className='text-[#147061]'>Voting on Going</span></p>
-            <p className='font-mono text-black'>Time left to vote</p>
-            <p className='font-mono text-[#147061]'>00:00:00</p>
-          </div>
-          <div>
-            <img src={voteImage} alt="" className="w-80 h-80" />
-          </div>
-        </div>
+    <div className="bg-white rounded-3xl shadow-2xl flex flex-col md:flex-row items-center justify-center gap-1 md:gap-12 px-4 py-6 max-w-4xl w-full">
+      <div className="text-2xl text-center md:text-left">
+        <p className="text-[#0E3D76] font-acme font-bold mb-2">
+          Your vote is your voice- <br />
+          <span className="text-black">
+            "let it be heard, let it be honest, <br />let it count"
+          </span>
+        </p>
+        <p className="text-black font-mono text-lg sm:text-xl">
+          Status: <span className="text-[#147061]">Voting on Going</span>
+        </p>
+        <p className="font-mono text-black">Time left to vote</p>
+        <p className="font-mono text-[#147061]">00:00:00</p>
       </div>
+      <div className="mt-4 md:mt-0">
+        <img src={voteImage} alt="" className="w-74 h-74 sm:w-80 sm:h-80 object-contain" />
+      </div>
+   </div>
+  </div>
+
 
       {/* Candidates */}
       <div>
